@@ -1198,5 +1198,7 @@
     <option name="m_ignoreForAbstractMethods" value="false" />
   </inspection_tool>
   <inspection_tool class="TypeParameterHidesVisibleType" level="WARNING" enabled="true" />
+  <inspection_tool class="EqualsCalledOnEnumConstant" level="WARNING" enabled="true" />
+  <inspection_tool class="JUnit4AnnotatedMethodInJUnit3TestCase" level="WARNING" enabled="true" />
 </inspections>
 

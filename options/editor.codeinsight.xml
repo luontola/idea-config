@@ -36,7 +36,7 @@
     <option name="USE_INSTANCEOF_ON_EQUALS_PARAMETER" value="false" />
     <option name="HIGHLIGHT_IDENTIFIER_UNDER_CARET" value="false" />
   </component>
-  <component name="DaemonCodeAnalyzerSettings" profile="My Default">
+  <component name="DaemonCodeAnalyzerSettings" profile="ORFJackal">
     <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
     <option name="AUTOREPARSE_DELAY" value="300" />
     <option name="SHOW_ADD_IMPORT_HINTS" value="true" />
