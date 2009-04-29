@@ -1,0 +1,20 @@
+JBoss
+ClearcasePlugin
+TFS Integration
+PerforceDirectPlugin
+com.intellij.gwt
+Weblogic
+JSF
+com.intellij.flex
+ZKM
+IDEtalk
+IdeaServerPlugin
+Starteam
+WebSphere
+StrutsAssistant
+SourceSafe
+Geronimo
+com.intellij.struts2
+Glassfish
+Resin
+com.intellij.seam
