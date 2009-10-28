@@ -16,11 +16,7 @@
     <option name="AUTOCOMPLETE_ON_SMART_TYPE_COMPLETION" value="true" />
     <option name="AUTOCOMPLETE_ON_CLASS_NAME_COMPLETION" value="false" />
     <option name="AUTOCOMPLETE_COMMON_PREFIX" value="true" />
-    <option name="INSERT_SINGLE_PARENTH" value="false" />
-    <option name="INSERT_DOUBLE_PARENTH_WHEN_NO_ARGS" value="false" />
     <option name="SHOW_STATIC_AFTER_INSTANCE" value="false" />
-    <option name="SHOW_SIGNATURES_IN_LOOKUPS" value="true" />
-    <option name="LOOKUP_HEIGHT" value="11" />
     <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="false" />
     <option name="SMART_INDENT_ON_ENTER" value="true" />
     <option name="INSERT_BRACE_ON_ENTER" value="true" />
@@ -44,6 +40,7 @@
     <option name="SUPPRESS_WARNINGS" value="true" />
     <option name="SHOW_METHOD_SEPARATORS" value="false" />
     <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="3" />
+    <option name="SHOW_SMALL_ICONS_IN_GUTTER" value="true" />
   </component>
 </application>
 
