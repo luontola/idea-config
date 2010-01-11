@@ -31,6 +31,8 @@
     <option name="HIGHLIGHT_SCOPE" value="false" />
     <option name="USE_INSTANCEOF_ON_EQUALS_PARAMETER" value="false" />
     <option name="HIGHLIGHT_IDENTIFIER_UNDER_CARET" value="false" />
+    <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="false" />
+    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="false" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="ORFJackal">
     <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />

@@ -34,9 +34,11 @@
     </option>
     <option name="IGNORE_DEPRECATED" value="false" />
     <option name="IGNORE_JAVADOC_PERIOD" value="true" />
+    <option name="IGNORE_DUPLICATED_THROWS" value="false" />
     <option name="myAdditionalJavadocTags" value="" />
   </inspection_tool>
   <inspection_tool class="ListIndexOfReplaceableByContains" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="LongLiteralsEndingWithLowercaseL" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MethodMayBeSynchronized" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonSerializableWithSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PointlessArithmeticExpression" enabled="true" level="WARNING" enabled_by_default="true">
@@ -58,6 +60,9 @@
   <inspection_tool class="TransientFieldNotInitialized" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnnecessaryBoxing" enabled="true" level="INFO" enabled_by_default="true" />
   <inspection_tool class="UnnecessaryUnboxing" enabled="true" level="INFO" enabled_by_default="true" />
-  <inspection_tool class="UnpredictableBigDecimalConstructorCall" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnpredictableBigDecimalConstructorCall" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreReferences" value="true" />
+    <option name="ignoreComplexLiterals" value="false" />
+  </inspection_tool>
 </inspections>
 
