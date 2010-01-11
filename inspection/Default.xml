@@ -315,6 +315,7 @@
   <inspection_tool class="CssUnusedSymbolInspection" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CustomClassloader" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="CustomSecurityManager" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="Cyclic References" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="CyclicClassDependency" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="CyclicPackageDependency" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="CyclomaticComplexity" enabled="false" level="WARNING" enabled_by_default="false">
@@ -456,6 +457,7 @@
   <inspection_tool class="FeatureEnvy" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="ignoreTestCases" value="false" />
   </inspection_tool>
+  <inspection_tool class="FieldAccessNotGuarded" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="FieldAccessedSynchronizedAndUnsynchronized" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="countGettersAndSetters" value="false" />
   </inspection_tool>
@@ -475,6 +477,7 @@
   <inspection_tool class="FieldRepeatedlyAccessed" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="m_ignoreFinalFields" value="false" />
   </inspection_tool>
+  <inspection_tool class="File Name" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FinalClass" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="FinalMethod" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="FinalMethodInFinalClass" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -596,6 +599,7 @@
   <inspection_tool class="ImplicitlyExposedWebServiceMethods" enabled="true" level="INFO" enabled_by_default="true" />
   <inspection_tool class="IncompatibleMask" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="IncompatibleMaskJS" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="InconsistentLanguageLevel" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="InconsistentResourceBundle" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="REPORT_MISSING_TRANSLATIONS" value="true" />
     <option name="REPORT_INCONSISTENT_PROPERTIES" value="true" />
@@ -620,6 +624,7 @@
     <option name="m_ignoreInvisibleFields" value="true" />
   </inspection_tool>
   <inspection_tool class="InnerHTMLJS" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="InstanceGuardedByStatic" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="InstanceMethodNamingConvention" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
     <option name="m_minLength" value="4" />
@@ -670,6 +675,7 @@
   <inspection_tool class="JSDuplicatedDeclaration" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JSLowercasedConstructorCall" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JSUndeclaredVariable" enabled="true" level="INFO" enabled_by_default="true" />
+  <inspection_tool class="JSUnnecessarySemicolon" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JSUnresolvedFunction" enabled="true" level="INFO" enabled_by_default="true" />
   <inspection_tool class="JSUnresolvedVariable" enabled="true" level="INFO" enabled_by_default="true" />
   <inspection_tool class="JSUntypedDeclaration" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -714,6 +720,7 @@
     </option>
     <option name="IGNORE_DEPRECATED" value="false" />
     <option name="IGNORE_JAVADOC_PERIOD" value="true" />
+    <option name="IGNORE_DUPLICATED_THROWS" value="false" />
     <option name="myAdditionalJavadocTags" value="" />
   </inspection_tool>
   <inspection_tool class="JavaLangImport" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -917,7 +924,9 @@
   </inspection_tool>
   <inspection_tool class="NonExceptionNameEndsWithException" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NonFinalClone" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="NonFinalFieldInImmutable" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NonFinalFieldOfException" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="NonFinalGuard" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NonFinalStaticVariableUsedInClassInitialization" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NonJaxWsWebServices" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonProtectedConstructorInAbstractClass" enabled="false" level="WARNING" enabled_by_default="false">
@@ -998,6 +1007,7 @@
   </inspection_tool>
   <inspection_tool class="OverridableMethodCallDuringObjectConstruction" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="OverriddenMethodCallDuringObjectConstruction" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="Package Name" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PackageInMultipleModules" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PackageVisibleField" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PackageVisibleInnerClass" enabled="false" level="WARNING" enabled_by_default="false">
@@ -1268,6 +1278,7 @@
     <option name="m_ignoreWeakCollections" value="false" />
   </inspection_tool>
   <inspection_tool class="StaticFieldReferenceOnSubclass" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="StaticGuardedByInstance" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="StaticImport" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="StaticInheritance" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="StaticMethodNamingConvention" enabled="false" level="WARNING" enabled_by_default="false">
@@ -1387,6 +1398,7 @@
   <inspection_tool class="ThisExpressionReferencesGlobalObjectJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThreadDeathRethrown" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ThreadDumpStack" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="ThreadLocalNotStaticFinal" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ThreadPriority" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ThreadRun" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ThreadStartInConstruction" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1433,7 +1445,7 @@
   <inspection_tool class="TypeParameterExtendsObject" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="TypeParameterHidesVisibleType" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="TypeParameterNamingConvention" enabled="false" level="WARNING" enabled_by_default="false">
-    <option name="m_regex" value="[A-Z\d]" />
+    <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
     <option name="m_minLength" value="1" />
     <option name="m_maxLength" value="1" />
   </inspection_tool>
@@ -1461,6 +1473,7 @@
   <inspection_tool class="UninstantiableBinding" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UninstantiableImplementedByClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UninstantiableProvidedByClass" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnknownGuard" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="UnknownLanguage" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="UnnecessarilyQualifiedStaticUsage" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="m_ignoreStaticFieldAccesses" value="false" />
@@ -1519,7 +1532,10 @@
   <inspection_tool class="UnnecessaryUnaryMinus" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="UnnecessaryUnboxing" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnparsedCustomBeanInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="UnpredictableBigDecimalConstructorCall" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="UnpredictableBigDecimalConstructorCall" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="ignoreReferences" value="true" />
+    <option name="ignoreComplexLiterals" value="false" />
+  </inspection_tool>
   <inspection_tool class="UnqualifiedFieldAccess" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="UnqualifiedStaticUsage" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="m_ignoreStaticFieldAccesses" value="false" />

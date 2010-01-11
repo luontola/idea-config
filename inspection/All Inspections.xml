@@ -329,6 +329,7 @@
   <inspection_tool class="FeatureEnvy" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreTestCases" value="false" />
   </inspection_tool>
+  <inspection_tool class="FieldAccessNotGuarded" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FieldAccessedSynchronizedAndUnsynchronized" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="countGettersAndSetters" value="false" />
   </inspection_tool>
@@ -549,6 +550,7 @@
     <option name="ignoreCharConversions" value="false" />
     <option name="ignoreConstantConversions" value="false" />
   </inspection_tool>
+  <inspection_tool class="InconsistentLanguageLevel" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="IncrementDecrementResultUsedJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="IncrementDecrementUsedAsExpression" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="IndexOfReplaceableByContains" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -560,6 +562,7 @@
     <option name="m_ignoreInvisibleFields" value="true" />
   </inspection_tool>
   <inspection_tool class="InnerHTMLJS" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="InstanceGuardedByStatic" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="InstanceMethodNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
     <option name="m_minLength" value="4" />
@@ -770,7 +773,9 @@
   </inspection_tool>
   <inspection_tool class="NonExceptionNameEndsWithException" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonFinalClone" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonFinalFieldInImmutable" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonFinalFieldOfException" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonFinalGuard" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonFinalStaticVariableUsedInClassInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonProtectedConstructorInAbstractClass" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_ignoreNonPublicClasses" value="false" />
@@ -1007,6 +1012,7 @@
     <option name="m_ignoreWeakCollections" value="false" />
   </inspection_tool>
   <inspection_tool class="StaticFieldReferenceOnSubclass" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="StaticGuardedByInstance" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StaticImport" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StaticInheritance" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="StaticMethodNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
@@ -1103,6 +1109,7 @@
   <inspection_tool class="ThisEscapedInConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThreadDeathRethrown" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThreadDumpStack" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThreadLocalNotStaticFinal" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThreadPriority" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThreadRun" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ThreadStartInConstruction" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -1149,6 +1156,7 @@
   <inspection_tool class="UnconditionalWait" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnconstructableTestCase" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UndeclaredTests" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnknownGuard" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnnecessarilyQualifiedStaticUsage" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_ignoreStaticFieldAccesses" value="false" />
     <option name="m_ignoreStaticMethodCalls" value="false" />
@@ -1180,7 +1188,10 @@
   <inspection_tool class="UnnecessarySuperQualifier" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnnecessaryThis" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnnecessaryUnaryMinus" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="UnpredictableBigDecimalConstructorCall" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnpredictableBigDecimalConstructorCall" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreReferences" value="true" />
+    <option name="ignoreComplexLiterals" value="false" />
+  </inspection_tool>
   <inspection_tool class="UnqualifiedFieldAccess" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnqualifiedStaticUsage" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_ignoreStaticFieldAccesses" value="false" />
