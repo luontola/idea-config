@@ -33,8 +33,11 @@
     <option name="HIGHLIGHT_IDENTIFIER_UNDER_CARET" value="false" />
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="false" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="false" />
+    <option name="JSP_ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="false" />
+    <EXCLUDED_PACKAGE NAME="sun" />
+    <EXCLUDED_PACKAGE NAME="com.sun.java" />
   </component>
-  <component name="DaemonCodeAnalyzerSettings" profile="ORFJackal">
+  <component name="DaemonCodeAnalyzerSettings" profile="All Inspections">
     <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
     <option name="AUTOREPARSE_DELAY" value="300" />
     <option name="SHOW_ADD_IMPORT_HINTS" value="true" />
