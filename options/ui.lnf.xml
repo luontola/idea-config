@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="UISettings">
-    <option name="FONT_FACE" value="Monaco" />
-    <option name="FONT_SIZE" value="9" />
     <option name="RECENT_FILES_LIMIT" value="30" />
+    <option name="CONSOLE_COMMAND_HISTORY_LIMIT" value="30" />
     <option name="MAX_CLIPBOARD_CONTENTS" value="30" />
   </component>
 </application>

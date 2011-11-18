@@ -13,6 +13,22 @@
       <option name="COMPLETION" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
+      <option name="HTML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="PHP" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="HAML" value="false" />
+      <option name="RUBY" value="false" />
+      <option name="RHTML" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
     </context>
   </template>
   <template name="cd" value="{@code $CODE$}$END$" description="Javadoc @code tag" toReformat="true" toShortenFQNames="true">
@@ -28,6 +44,22 @@
       <option name="COMPLETION" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
+      <option name="HTML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="PHP" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="HAML" value="false" />
+      <option name="RUBY" value="false" />
+      <option name="RHTML" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
     </context>
   </template>
   <template name="for" value="for (int $INDEX$ = 0; $INDEX$ &lt; $UNTIL$; $INDEX$++) {&#10;    $END$&#10;}" description="Create for loop" toReformat="true" toShortenFQNames="true">
@@ -44,6 +76,22 @@
       <option name="OTHER" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
+      <option name="HTML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="PHP" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="HAML" value="false" />
+      <option name="RUBY" value="false" />
+      <option name="RHTML" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
     </context>
   </template>
   <template name="ifn" value="if ($VAR$ == null) {&#10;    throw new NullPointerException(&quot;$VAR$ is null&quot;);&#10;}$END$" description="Throw NullPointerException if variable is null" toReformat="true" toShortenFQNames="true">
@@ -59,6 +107,22 @@
       <option name="COMPLETION" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
+      <option name="HTML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="PHP" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="HAML" value="false" />
+      <option name="RUBY" value="false" />
+      <option name="RHTML" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
     </context>
   </template>
   <template name="j" value="{@$TAG$ $END$}" description="Javadoc block tag" toReformat="true" toShortenFQNames="true">
@@ -74,6 +138,22 @@
       <option name="COMPLETION" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
+      <option name="HTML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="PHP" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="HAML" value="false" />
+      <option name="RUBY" value="false" />
+      <option name="RHTML" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
     </context>
   </template>
   <template name="li" value="{@link $TARGET$}$END$" description="Javadoc @link tag" toReformat="true" toShortenFQNames="true">
@@ -89,6 +169,22 @@
       <option name="COMPLETION" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
+      <option name="HTML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="PHP" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="HAML" value="false" />
+      <option name="RUBY" value="false" />
+      <option name="RHTML" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
     </context>
   </template>
   <template name="serial" value="private static final long serialVersionUID = 1L;" description="Insert serialVersionUID field" toReformat="true" toShortenFQNames="true">
@@ -103,6 +199,22 @@
       <option name="COMPLETION" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
+      <option name="HTML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="PHP" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="HAML" value="false" />
+      <option name="RUBY" value="false" />
+      <option name="RHTML" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
     </context>
   </template>
 </templateSet>
