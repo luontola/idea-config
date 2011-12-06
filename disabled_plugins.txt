@@ -1,7 +1,1 @@
-ClearcasePlugin
-PerforceDirectPlugin
-TFS
-CVS
-SourceSafe
-hg4idea
 IDEtalk
