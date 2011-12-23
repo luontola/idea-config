@@ -3,9 +3,9 @@
   <action id="CollapseBlock" />
   <action id="CollapseSelection" />
   <action id="Coverage">
-    <keyboard-shortcut first-keystroke="shift F10" />
+    <keyboard-shortcut first-keystroke="shift F9" />
   </action>
-  <action id="Run" />
+  <action id="Debug" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt ENTER" />
   </action>
